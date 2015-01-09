@@ -22,4 +22,8 @@ describe('dot case', function () {
     assert.equal(dotCase('TestString'), 'test.string');
     assert.equal(dotCase('TestString1_2_3'), 'test.string.1.2.3');
   });
+
+  it('should support non-latin characters', function () {
+    assert.equal(dotCase('My Entrée'), 'my.entrée');
+  });
 });
