@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "Dot case a string",
   "main": "dot-case.js",
+  "files": [
+    "dot-case.js",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "istanbul cover _mocha -- -R spec"
   },
