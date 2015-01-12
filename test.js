@@ -26,4 +26,8 @@ describe('dot case', function () {
   it('should support non-latin characters', function () {
     assert.equal(dotCase('My Entrée'), 'my.entrée');
   });
+
+  it('should support locales', function () {
+    assert.equal(dotCase('MY STRING', 'tr'), 'my.strıng');
+  });
 });

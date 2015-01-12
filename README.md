@@ -22,6 +22,8 @@ var dotCase = require('dot-case');
 dotCase('string');        //=> "string"
 dotCase('camelCase');     //=> "camel.case"
 dotCase('sentence case'); //=> "sentence.case"
+
+dotCase('MY STRING', 'tr'); //=> "my.strıng"
 ```
 
 ## License
