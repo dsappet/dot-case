@@ -11,20 +11,20 @@ Supports Unicode (non-ASCII characters) and non-string entities, such as objects
 
 ## Installation
 
-```bash
+```
 npm install dot-case --save
 ```
 
 ## Usage
 
 ```javascript
-var dotCase = require('dot-case');
+var dotCase = require('dot-case')
 
-dotCase('string');        //=> "string"
-dotCase('camelCase');     //=> "camel.case"
-dotCase('sentence case'); //=> "sentence.case"
+dotCase('string')        //=> "string"
+dotCase('camelCase')     //=> "camel.case"
+dotCase('sentence case') //=> "sentence.case"
 
-dotCase('MY STRING', 'tr'); //=> "my.strıng"
+dotCase('MY STRING', 'tr') //=> "my.strıng"
 ```
 
 ## License
