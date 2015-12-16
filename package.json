@@ -3,8 +3,10 @@
   "version": "1.1.1",
   "description": "Dot case a string",
   "main": "dot-case.js",
+  "typings": "dot-case.d.ts",
   "files": [
     "dot-case.js",
+    "dot-case.d.ts",
     "LICENSE"
   ],
   "scripts": {

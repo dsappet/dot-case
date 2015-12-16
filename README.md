@@ -27,6 +27,10 @@ dotCase('sentence case') //=> "sentence.case"
 dotCase('MY STRING', 'tr') //=> "my.strıng"
 ```
 
+## Typings
+
+Includes a [TypeScript definition](dot-case.d.ts).
+
 ## License
 
 MIT
