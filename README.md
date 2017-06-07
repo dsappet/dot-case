@@ -1,4 +1,4 @@
-# Dot Case
+# Upper Dot Case
 
 [![NPM version][npm-image]][npm-url]
 [![NPM downloads][downloads-image]][downloads-url]
@@ -6,26 +6,26 @@
 [![Test coverage][coveralls-image]][coveralls-url]
 [![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/dot-case.svg)](https://greenkeeper.io/)
 
-Dot case a string.
+Upper dot case a string.
 
 Supports Unicode (non-ASCII characters) and non-string entities, such as objects with a `toString` property, numbers and booleans. Empty values (`null` and `undefined`) will result in an empty string.
 
 ## Installation
 
 ```
-npm install dot-case --save
+npm install upper-dot-case --save
 ```
 
 ## Usage
 
 ```javascript
-var dotCase = require('dot-case')
+var upperDotCase = require('upper-dot-case')
 
-dotCase('string')        //=> "string"
-dotCase('camelCase')     //=> "camel.case"
-dotCase('sentence case') //=> "sentence.case"
+upperDotCase('string')        //=> "String"
+upperDotCase('camelCase')     //=> "Camel.Case"
+upperDotCase('sentence case') //=> "Sentence.Case"
 
-dotCase('MY STRING', 'tr') //=> "my.strıng"
+upperDotCase('MY STRING', 'tr') //=> "My.Strıng"
 ```
 
 ## Typings
