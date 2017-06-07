@@ -4,7 +4,6 @@
 [![NPM downloads][downloads-image]][downloads-url]
 [![Build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
-[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/dot-case.svg)](https://greenkeeper.io/)
 
 Upper dot case a string.
 
@@ -30,17 +29,13 @@ upperDotCase('MY STRING', 'tr') //=> "My.Strıng"
 
 ## Typings
 
-Includes a [TypeScript definition](dot-case.d.ts).
+Includes a [TypeScript definition](upper-dot-case.d.ts).
 
 ## License
 
 MIT
 
-[npm-image]: https://img.shields.io/npm/v/dot-case.svg?style=flat
-[npm-url]: https://npmjs.org/package/dot-case
-[downloads-image]: https://img.shields.io/npm/dm/dot-case.svg?style=flat
-[downloads-url]: https://npmjs.org/package/dot-case
-[travis-image]: https://img.shields.io/travis/blakeembrey/dot-case.svg?style=flat
-[travis-url]: https://travis-ci.org/blakeembrey/dot-case
-[coveralls-image]: https://img.shields.io/coveralls/blakeembrey/dot-case.svg?style=flat
-[coveralls-url]: https://coveralls.io/r/blakeembrey/dot-case?branch=master
+[npm-image]: https://badge.fury.io/js/upper-dot-case.svg?style=flat
+[npm-url]: https://npmjs.org/package/upper-dot-case
+[downloads-image]: https://img.shields.io/npm/dm/upper-dot-case.svg?style=flat
+[downloads-url]: https://npmjs.org/package/upper-dot-case
